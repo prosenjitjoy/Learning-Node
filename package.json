@@ -1,0 +1,23 @@
+{
+  "name": "efficient-node",
+  "version": "1.0.0",
+  "description": "A guide to learning Node.js",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "pretest": "npm prune && npm install",
+    "start": "node test.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "unused": "npm ls | grep 'extraneous'",
+    "lint": "eslint"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.18.0",
+    "eslint": "^9.18.0",
+    "globals": "^15.14.0",
+    "loadtest": "^8.1.1"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
